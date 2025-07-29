@@ -44,8 +44,10 @@ const DossierPatient = () => {
                 <div className='flex flex-col gap-4'>
                     <div className="mt-4 rounded bg-white p-4">
                         <p><strong>Date :</strong> </p>
-                        <p><strong>Âge :</strong>  ans</p>
-                        <p><strong>Résultat du diagnostic :</strong> </p>
+                        <p><strong>TFG (ml/min/1,73 m2) :</strong> </p>
+                        <p><strong>Protéinurie :</strong>  </p>
+                        <p><strong>Taille des reins :</strong>  </p>
+                        <p><strong>Symptômes :</strong> </p>
                     </div>
                 </div>
                 
