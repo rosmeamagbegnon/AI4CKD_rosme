@@ -5,6 +5,7 @@ import PatientList from './pages/patientList';
 import NavbarConn from './components/navbarConn';
 import FormPatient from './pages/formPatient';
 import DossierPatient from './pages/dossierPatient'
+import FormDiagnostic from './pages/formDiagnostic';
 const App = () => {
   return (
     <Router>
@@ -13,6 +14,7 @@ const App = () => {
         {/* Définition des routes */}
         <Route path="/" element={<PatientList />} />
         <Route path="/addpatient" element={<FormPatient />} />
+        <Route path="/diagnostic" element={<FormDiagnostic />} />
         <Route path="/dossier" element={<DossierPatient />} />
         {/* Vous pouvez ajouter d'autres routes ici */}
       </Routes>

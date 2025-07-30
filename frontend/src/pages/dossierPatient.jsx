@@ -4,7 +4,7 @@ import {  FaPen, FaArchive, FaDownload  } from 'react-icons/fa';
 // Composant DossierPatient
 const DossierPatient = () => {
     return (
-        <div className="px-4 lg:px-8 xl:px-12  pt-8 md:pt-10 pb-5 justify-center flex flex-wrap gap-8 xl:gap-36   ">
+        <div className="px-4 lg:px-8 xl:px-24  pt-8 md:pt-10 pb-5 space-y-8 md:space-y-12 lg:space-y-16   ">
             <div className='bg-slate-50 shadow-md rounded p-5  '>
                 <div className='justify-between flex flex-wrap gap-3 md:gap-10 lg:gap-24 items-center'>
                     <h2 className="text-xl font-bold">Dossier Patient</h2>
@@ -21,14 +21,14 @@ const DossierPatient = () => {
                 </div>
                 
                 <div className="mt-4">
-                    <p><strong>Nom :</strong> </p>
-                    <p><strong>Prénoms :</strong> </p>
-                    <p><strong>Date de naissance :</strong> </p>
-                    <p><strong>Sexe :</strong>  </p>
-                    <p><strong>Numéro de téléphone :</strong> </p>
-                    <p><strong>Poids :</strong> </p>
-                    <p><strong>Taille :</strong> </p>
-                    <p><strong>Groupe sanguin :</strong> </p>
+                    <p><strong>Nom :</strong>AMAGBEGNON </p>
+                    <p><strong>Prénoms :</strong> Rosmé Essé</p>
+                    <p><strong>Date de naissance :</strong> 03/09/2005</p>
+                    <p><strong>Sexe :</strong>  Féminin</p>
+                    <p><strong>Numéro de téléphone :</strong> 0158572922</p>
+                    <p><strong>Poids :</strong> 60Kg</p>
+                    <p><strong>Taille :</strong>1m54 </p>
+                    <p><strong>Groupe sanguin :</strong> O+</p>
                     <p><strong>Allergies :</strong> </p>
                     <p><strong>Antécédents médicaux :</strong> </p>
                     <p><strong>Traitements en cours :</strong> </p>
@@ -38,16 +38,17 @@ const DossierPatient = () => {
                 <div className='justify-between flex flex-wrap gap-3 md:gap-10 lg:gap-24 items-center'>
                     <h2 className="text-xl font-bold">Diagnostics</h2>
                     <button className='bg-green-700 text-white px-3 py-1 rounded font-medium '>
-                        <Link to="/addpatient">Nouveau Diagnostic</Link>
+                        <Link to="/diagnostic">Nouveau Diagnostic</Link>
                     </button>
                 </div>
                 <div className='flex flex-col gap-4'>
                     <div className="mt-4 rounded bg-white p-4">
-                        <p><strong>Date :</strong> </p>
-                        <p><strong>TFG (ml/min/1,73 m2) :</strong> </p>
-                        <p><strong>Protéinurie :</strong>  </p>
-                        <p><strong>Taille des reins :</strong>  </p>
+                        <p><strong>Date :</strong>29/07/2025 </p>
+                        <p><strong>TFG (ml/min/1,73 m2) :</strong> 95</p>
+                        <p><strong>Protéinurie :</strong>Non  </p>
+                        <p><strong>Taille des reins :</strong> Normale </p>
                         <p><strong>Symptômes :</strong> </p>
+                        <strong className='text-green-700 pt-2 text-lg'>Vous êtes en parfaite santé</strong>
                     </div>
                 </div>
                 

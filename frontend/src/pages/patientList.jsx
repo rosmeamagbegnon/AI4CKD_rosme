@@ -21,10 +21,10 @@ const PatientList = () => {
       <div className='flex flex-wrap gap-4 justify-start'>
         <div className='shadow-md bg-slate-50 rounded-lg p-4 space-y-4 max-w-md '>
           <div className=' space-y-2'>
-            <h1>Nom: AMAGBEGNON</h1>
-            <h1>Prénoms: Rosmé Essé</h1>
-            <h1>Sexe: Féminin</h1>
-            <h1>Age: 19ans</h1>
+            <h1> <strong>Nom:</strong>  AMAGBEGNON</h1>
+            <h1> <strong>Prénoms:</strong> Rosmé Essé</h1>
+            <h1> <strong>Sexe:</strong> Féminin</h1>
+            <h1> <strong>Age:</strong> 19ans</h1>
           </div>
           <div className='flex justify-center space-x-5'>
             <button className='bg-green-700 text-white px-3 py-1 rounded font-medium flex items-center gap-2'>   
